@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ChatToolbar_Tests' do
+  pod 'ChatToolbar', :path => '../'
+  
+  
+end
