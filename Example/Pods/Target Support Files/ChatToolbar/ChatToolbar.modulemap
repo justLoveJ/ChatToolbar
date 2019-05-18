@@ -1,0 +1,6 @@
+framework module ChatToolbar {
+  umbrella header "ChatToolbar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E51CB21D758A58AE96CA3C7A6DBAE5E /* ChatToolbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C00C9644FBEE1C2C3A1D38751BF2A4 /* ChatToolbar-dummy.m */; };
+		3D692A0363011B9E1948A2B885D910A3 /* Pods-ChatToolbar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10ACA64647BE6C26F49738DBFD231A3D /* Pods-ChatToolbar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AFADA9FEDC2B2EC02F4DAD312130594 /* ChatToolbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E754AECA0DCB688FDC8088BCA667322F /* ChatToolbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854C5DD79417CD94DE3A3611FD1F3D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		92C5B058E4EB53410CE9AC472E1FF0A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		A49D452EA4A1097BE050A31FDB9130A4 /* Pods-ChatToolbar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DD4D9DD71467D4120282E647C4E2CD /* Pods-ChatToolbar_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B759828557B58FD25018118013EEB22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE29F20A20FE0189D57A446361BEC875;
+			remoteInfo = ChatToolbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10ACA64647BE6C26F49738DBFD231A3D /* Pods-ChatToolbar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatToolbar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		217EF4F183CB71B0B60D075BFB6157A4 /* Pods-ChatToolbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatToolbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		23021B14163931D901EB2637EC9F2C59 /* ChatToolbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChatToolbar.modulemap; sourceTree = "<group>"; };
+		253C421A19113240C7B1A1FC802CCBA3 /* ChatToolbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChatToolbar.xcconfig; sourceTree = "<group>"; };
+		312C1733835108915ABC561CBA26FAF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4773940EE32C3B783D919066E33BDFC2 /* Pods-ChatToolbar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatToolbar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A7EF03282D8E0AA15CDE976613A888A /* Pods-ChatToolbar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatToolbar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57C00C9644FBEE1C2C3A1D38751BF2A4 /* ChatToolbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChatToolbar-dummy.m"; sourceTree = "<group>"; };
+		5B0417AA256B0E9F2F90A18CF8F79A1C /* ChatToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChatToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		638F4D6430C94A421ED39765F0612603 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6CFFF47ECA7A24478591F1E9DB829359 /* Pods_ChatToolbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatToolbar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1C7AC04B1B18DC3FBD95786775D93F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		974A7310D85AD4F1A5B3E30AD3CA3C90 /* Pods-ChatToolbar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatToolbar_Tests.modulemap"; sourceTree = "<group>"; };
+		986C54765999CF83FA52E30133315A82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C37D70E8B1EA1B8215362C2F11A99E /* Pods-ChatToolbar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatToolbar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A1DD4D9DD71467D4120282E647C4E2CD /* Pods-ChatToolbar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatToolbar_Tests-dummy.m"; sourceTree = "<group>"; };
+		A5F88598BA9235CA316D9B595D113648 /* ChatToolbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatToolbar-prefix.pch"; sourceTree = "<group>"; };
+		AE114B9D904DBDB368CB0143270D9BA2 /* ChatToolbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ChatToolbar.podspec; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E4B3AA1E8BEA6F79546AA81874A438FB /* Pods-ChatToolbar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatToolbar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E754AECA0DCB688FDC8088BCA667322F /* ChatToolbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatToolbar-umbrella.h"; sourceTree = "<group>"; };
+		F8A85E0104570A75EB09A75FB34B8FD1 /* Pods-ChatToolbar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatToolbar_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230ADB5683588369066FBA8DD367D90D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C5B058E4EB53410CE9AC472E1FF0A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3565EC14AC3C0664C8E57F2BB8BAEB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854C5DD79417CD94DE3A3611FD1F3D06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081AEF5672242D465223CF2F43C8DECB /* ChatToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				C3632793D21423B9A5B6A9FD7BB0C497 /* Pod */,
+				90F01CA0437A27231C2A20D34183B471 /* Support Files */,
+			);
+			name = ChatToolbar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		19C8AF2D847274C3DEE684704AA1833D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B0417AA256B0E9F2F90A18CF8F79A1C /* ChatToolbar.framework */,
+				6CFFF47ECA7A24478591F1E9DB829359 /* Pods_ChatToolbar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA051F32934CBA417729D2AF93C5834 /* Pods-ChatToolbar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C7AC04B1B18DC3FBD95786775D93F /* Info.plist */,
+				974A7310D85AD4F1A5B3E30AD3CA3C90 /* Pods-ChatToolbar_Tests.modulemap */,
+				4773940EE32C3B783D919066E33BDFC2 /* Pods-ChatToolbar_Tests-acknowledgements.markdown */,
+				4A7EF03282D8E0AA15CDE976613A888A /* Pods-ChatToolbar_Tests-acknowledgements.plist */,
+				A1DD4D9DD71467D4120282E647C4E2CD /* Pods-ChatToolbar_Tests-dummy.m */,
+				E4B3AA1E8BEA6F79546AA81874A438FB /* Pods-ChatToolbar_Tests-frameworks.sh */,
+				F8A85E0104570A75EB09A75FB34B8FD1 /* Pods-ChatToolbar_Tests-resources.sh */,
+				10ACA64647BE6C26F49738DBFD231A3D /* Pods-ChatToolbar_Tests-umbrella.h */,
+				217EF4F183CB71B0B60D075BFB6157A4 /* Pods-ChatToolbar_Tests.debug.xcconfig */,
+				99C37D70E8B1EA1B8215362C2F11A99E /* Pods-ChatToolbar_Tests.release.xcconfig */,
+			);
+			name = "Pods-ChatToolbar_Tests";
+			path = "Target Support Files/Pods-ChatToolbar_Tests";
+			sourceTree = "<group>";
+		};
+		33D617AA8E23081524CBFD551308DDCB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DA051F32934CBA417729D2AF93C5834 /* Pods-ChatToolbar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C4DC8C1D66B6437AA31A94FFA5B6BD4B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				19C8AF2D847274C3DEE684704AA1833D /* Products */,
+				33D617AA8E23081524CBFD551308DDCB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90F01CA0437A27231C2A20D34183B471 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23021B14163931D901EB2637EC9F2C59 /* ChatToolbar.modulemap */,
+				253C421A19113240C7B1A1FC802CCBA3 /* ChatToolbar.xcconfig */,
+				57C00C9644FBEE1C2C3A1D38751BF2A4 /* ChatToolbar-dummy.m */,
+				A5F88598BA9235CA316D9B595D113648 /* ChatToolbar-prefix.pch */,
+				E754AECA0DCB688FDC8088BCA667322F /* ChatToolbar-umbrella.h */,
+				986C54765999CF83FA52E30133315A82 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ChatToolbar";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3632793D21423B9A5B6A9FD7BB0C497 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AE114B9D904DBDB368CB0143270D9BA2 /* ChatToolbar.podspec */,
+				312C1733835108915ABC561CBA26FAF7 /* LICENSE */,
+				638F4D6430C94A421ED39765F0612603 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C4DC8C1D66B6437AA31A94FFA5B6BD4B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				081AEF5672242D465223CF2F43C8DECB /* ChatToolbar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E284EBC206238F0A58EC09A7212A2974 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D692A0363011B9E1948A2B885D910A3 /* Pods-ChatToolbar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E317B65E869DB21C4126BB5D6D7A861A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFADA9FEDC2B2EC02F4DAD312130594 /* ChatToolbar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ADBC50468E0DD89E26AA7F5FB9932405 /* Pods-ChatToolbar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA277E2FD30E48C2C8EB4A0EBD2BA810 /* Build configuration list for PBXNativeTarget "Pods-ChatToolbar_Tests" */;
+			buildPhases = (
+				E284EBC206238F0A58EC09A7212A2974 /* Headers */,
+				7660C19603AF78019204F6DEB74C6D03 /* Sources */,
+				230ADB5683588369066FBA8DD367D90D /* Frameworks */,
+				09C6B6F2F800217DC8C5A69719A22E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0501DAE4E36D6137EDB293DCD7556AE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatToolbar_Tests";
+			productName = "Pods-ChatToolbar_Tests";
+			productReference = 6CFFF47ECA7A24478591F1E9DB829359 /* Pods_ChatToolbar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE29F20A20FE0189D57A446361BEC875 /* ChatToolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9F652DBE306ECF7813B366CC545B92 /* Build configuration list for PBXNativeTarget "ChatToolbar" */;
+			buildPhases = (
+				E317B65E869DB21C4126BB5D6D7A861A /* Headers */,
+				B77004AEBA6B810300179612C1104F49 /* Sources */,
+				3565EC14AC3C0664C8E57F2BB8BAEB91 /* Frameworks */,
+				C8A7F96C1CD6C0FD91E4ABAA5D5917E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatToolbar;
+			productName = ChatToolbar;
+			productReference = 5B0417AA256B0E9F2F90A18CF8F79A1C /* ChatToolbar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 19C8AF2D847274C3DEE684704AA1833D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE29F20A20FE0189D57A446361BEC875 /* ChatToolbar */,
+				ADBC50468E0DD89E26AA7F5FB9932405 /* Pods-ChatToolbar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C6B6F2F800217DC8C5A69719A22E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A7F96C1CD6C0FD91E4ABAA5D5917E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7660C19603AF78019204F6DEB74C6D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49D452EA4A1097BE050A31FDB9130A4 /* Pods-ChatToolbar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77004AEBA6B810300179612C1104F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E51CB21D758A58AE96CA3C7A6DBAE5E /* ChatToolbar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0501DAE4E36D6137EDB293DCD7556AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChatToolbar;
+			target = CE29F20A20FE0189D57A446361BEC875 /* ChatToolbar */;
+			targetProxy = 5B759828557B58FD25018118013EEB22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		088D1C39C8F7667D7539DF5C6D80F0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253C421A19113240C7B1A1FC802CCBA3 /* ChatToolbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChatToolbar/ChatToolbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChatToolbar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChatToolbar/ChatToolbar.modulemap";
+				PRODUCT_MODULE_NAME = ChatToolbar;
+				PRODUCT_NAME = ChatToolbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6842686C746F95B7464A3C8A86004A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253C421A19113240C7B1A1FC802CCBA3 /* ChatToolbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChatToolbar/ChatToolbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChatToolbar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChatToolbar/ChatToolbar.modulemap";
+				PRODUCT_MODULE_NAME = ChatToolbar;
+				PRODUCT_NAME = ChatToolbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F460AF181E4F05FA4AD5CAE49A5C0FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217EF4F183CB71B0B60D075BFB6157A4 /* Pods-ChatToolbar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatToolbar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatToolbar_Tests/Pods-ChatToolbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7100DC4CACF1F4F9CFF974349DACC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C37D70E8B1EA1B8215362C2F11A99E /* Pods-ChatToolbar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatToolbar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatToolbar_Tests/Pods-ChatToolbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50646285DD9FD95AF390BDA3FB1948EA /* Debug */,
+				58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9F652DBE306ECF7813B366CC545B92 /* Build configuration list for PBXNativeTarget "ChatToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088D1C39C8F7667D7539DF5C6D80F0FB /* Debug */,
+				6842686C746F95B7464A3C8A86004A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA277E2FD30E48C2C8EB4A0EBD2BA810 /* Build configuration list for PBXNativeTarget "Pods-ChatToolbar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F460AF181E4F05FA4AD5CAE49A5C0FFA /* Debug */,
+				F7100DC4CACF1F4F9CFF974349DACC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

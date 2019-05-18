@@ -1,0 +1,22 @@
+{
+  "name": "ChatToolbar",
+  "version": "0.1.0",
+  "summary": "A short description of ChatToolbar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jinyw/ChatToolbar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jinyw": "jin_do@126.com"
+  },
+  "source": {
+    "git": "https://github.com/jinyw/ChatToolbar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ChatToolbar/Classes/**/*"
+}

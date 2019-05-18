@@ -1,0 +1,16 @@
+PODS:
+  - ChatToolbar (0.1.0)
+
+DEPENDENCIES:
+  - ChatToolbar (from `../`)
+
+EXTERNAL SOURCES:
+  ChatToolbar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChatToolbar: f68e49a7c7184d9625bb2a248288d9c678b7563c
+
+PODFILE CHECKSUM: 70a27b9cd3572dad39daafd45cdf09684fb64083
+
+COCOAPODS: 1.5.3
